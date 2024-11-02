@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --body-bg: #f3f3f3;
+    --app-bg: #fff;
+    --app-bx-shadow : 0 4px 8px rgba(0, 0, 0, 0.1);
+    --btn-bg: #007bff;
+    --btn-bg-hover: #0056b3;
+}
+
+body {
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.joke-container {
+    background-color: var(--app-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: var(--app-bx-shadow);
+    max-width: 450px;
+}
+
+.joke-container h1 {
+    margin: 10px;
+}
+
+.joke-container p {
+    margin: 10px;
+    font-style: italic;
+}
+
+.joke-container button {
+    background-color: var(--btn-bg);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.joke-container button:hover {
+    background-color: var(--btn-bg-hover);
+}
